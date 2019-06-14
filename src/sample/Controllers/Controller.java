@@ -12,6 +12,7 @@ import javafx.scene.shape.Circle;
 import sample.Logic.*;
 import sample.Logic.Traps.Trap;
 
+import java.awt.desktop.OpenURIEvent;
 import java.io.FileInputStream;
 import java.util.*;
 
@@ -140,6 +141,9 @@ public class Controller {
             }
         }
     }
+    public void updateStatistic(){
+
+    }
 
     public CrewMember selectCrewMember(List<CrewMember> crewMembers) {
 
@@ -257,5 +261,8 @@ public class Controller {
         System.out.println(alien);
 
         return this.selectRoom(rooms);
+    }
+    public void printGameMessage(String message){
+        output.appendText(message);
     }
 }
