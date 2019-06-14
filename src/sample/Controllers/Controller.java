@@ -1,13 +1,76 @@
 package sample.Controllers;
 
+import javafx.application.Platform;
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.ImagePattern;
+import javafx.scene.shape.Circle;
+import org.w3c.dom.events.Event;
 import sample.Logic.CrewMember;
 import sample.Logic.Room;
-
+import javafx.scene.control.TextArea;
+import java.awt.*;
+import java.util.*;
 import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+
+import  javafx.scene.control.*;
 
 public class Controller {
+    @FXML
+    private TextArea output;
+
+    @FXML
+    private TextField input;
+
+    @FXML
+    private Circle crewMemberOne;
+
+    @FXML
+    private Circle crewMemberTwo;
+
+    @FXML
+    private AnchorPane mainBoard;
+
+   // Image alienImg = new Image("@/alien.png");
+    public final static Map<Integer,RoomCoordinates> roomCoordinates = new HashMap<>(){{
+         put(1,new RoomCoordinates(360,130));
+         put(2,new RoomCoordinates(415,530));
+         put(3,new RoomCoordinates(415,520));
+         put(4,new RoomCoordinates(518,270));
+         put(5,new RoomCoordinates(310,270));
+         put(6,new RoomCoordinates(360,700));
+         put(7,new RoomCoordinates(520,540));
+         put(8,new RoomCoordinates(400,300));
+         put(9,new RoomCoordinates(200,400));
+         put(10,new RoomCoordinates(317,517));
+         put(11,new RoomCoordinates(520,400));
+         put(12,new RoomCoordinates(200,540));
+    }
+    };
+    private void switchRoom(boolean moveCrewMemberOne,int roomNumber){
+        RoomCoordinates temp = roomCoordinates.get(roomNumber);
+        if(moveCrewMemberOne){
+            crewMemberOne.setLayoutX(temp.getX() + 20);
+            crewMemberOne.setLayoutY(temp.getY());
+        }else{
+            crewMemberTwo.setLayoutX(temp.getX() - 20);
+            crewMemberTwo.setLayoutY(temp.getY());
+        }
+
+    }
+    private void addAlien(int roomNumber){
+        RoomCoordinates temp = roomCoordinates.get(roomNumber);
+        Circle alien = new Circle(temp.getX(),temp.getY(),20);
+        //alien.setFill(new ImagePattern(alienImg));
+        mainBoard.getChildren().add(alien);
+        }
+
+
+
 
     private Scanner scanner = new Scanner(System.in);
 
@@ -28,7 +91,8 @@ public class Controller {
     public int selectPlacementForCrewMember() {
         System.out.println("Select room for crew member : ");
         Scanner scanner = new Scanner(System.in);
-        return scanner.nextInt();
+        Integer output = scanner.nextInt();
+        return output;
     }
 
     public void printAlienSpawnResult(int i) {
@@ -67,4 +131,35 @@ public class Controller {
             System.out.println("Chosen room is sealed");
         }
     }
+    @FXML
+    void exit(){
+        Platform.exit();
+    }
+    @FXML
+    void printInput(){
+        String textInput = "";
+        if((textInput = input.getText()).length() > 0)
+        output.appendText(textInput + "\n");
+        input.setText("");
+    }
+    @FXML
+    void movement(KeyEvent event){
+        switch (event.getCode()){
+            case A:
+                addAlien(1);
+                break;
+            case D:
+                addAlien(2);
+                break;
+            case W:
+                addAlien(3);
+                break;
+            case S:
+                addAlien(4);
+                break;
+
+         }
+
+    }
+
 }

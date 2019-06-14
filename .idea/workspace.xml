@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/final project/gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/mainBoard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/Controllers/Controller$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/Controllers/Controller$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/Controllers/RoomCoordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/View/BoardSetUp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/View/BoardSetUp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/View/Chuj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/final project/sample/View/Pawn.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/secondStage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainBoard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/CSS/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/RoomCoordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/BoardSetUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Chuj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/View/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/final project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Controllers/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Controllers/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Controllers/GameInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Controllers/GameInit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/CrewMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/CrewMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/Ship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/ShipObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/ShipObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/Await3rdTokenPlacementFor1stMrewMemberState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/Await3rdTokenPlacementFor1stMrewMemberState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/Await3rdTokenPlacementFor2ndCrewMemberState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/Await3rdTokenPlacementFor2ndCrewMemberState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitBeginningState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitBeginningState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitCrewMembersSelectionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitCrewMembersSelectionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitDieRollingState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitDieRollingState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitDieRollingStateAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitDieRollingStateAA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitPlayerActionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitPlayerActionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitRestState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitRestState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitSealRoomActionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitSealRoomActionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitTrapActionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/AwaitTrapActionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/CheckConditionsState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/CheckConditionsState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/FixHullState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/FixHullState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/GameOverState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/GameOverState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/HealHealthState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/HealHealthState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/MoveState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/MoveState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/WinState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/States/WinState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Logic/Trap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Logic/Trap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/final project/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/final project/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,35 +146,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor1stMrewMemberState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/GameInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Logic/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="355">
+              <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#915#916#0" expanded="true" />
@@ -134,11 +164,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameInit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/GameInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="532">
+              <caret line="65" column="63" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3696#3697#0" expanded="true" />
+                <element signature="e#3727#3728#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alien.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alien.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="mainBoard.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainBoard.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Ship.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Logic/Ship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="91" column="36" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,56 +212,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitBeginningState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitCrewMembersSelectionState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor2ndCrewMemberState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitDieRollingState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitTrapActionState.java">
+      <file leaf-file-name="RoomCoordinates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RoomCoordinates.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoardSetUp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/View/BoardSetUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="76" column="74" lean-forward="true" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,14 +243,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Logic/Trap.java">
+      <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="196">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -231,12 +280,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/States/AvaitBegginingState.java" />
-        <option value="$PROJECT_DIR$/src/sample/States/AwaitDieRolling.java" />
-        <option value="$PROJECT_DIR$/src/sample/States/GameState.java" />
         <option value="$PROJECT_DIR$/src/sample/States/Await3rdTokenPlacementFor1stMrewMemberState.java" />
         <option value="$PROJECT_DIR$/src/sample/States/Await3rdTokenPlacementFor2ndCrewMemberState.java" />
         <option value="$PROJECT_DIR$/src/sample/States/AwaitCrewMembersSelectionState.java" />
@@ -256,13 +305,11 @@
         <option value="$PROJECT_DIR$/src/sample/Logic/States/CheckConditionsState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/GameOverState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/WinState.java" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/AwaitCrewMembersSelectionState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/ShipObjects.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/ShipObject.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/GameState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor1stMrewMemberState.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/GameInit.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/AwaitDieRollingState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/Game.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/AwaitBeginningState.java" />
@@ -271,13 +318,25 @@
         <option value="$PROJECT_DIR$/src/sample/Logic/Room.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/Ship.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/MoveState.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/HealHealthState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/FixHullState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/AwaitSealRoomActionState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/AwaitPlayerActionState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/States/AwaitTrapActionState.java" />
         <option value="$PROJECT_DIR$/src/sample/Logic/Trap.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/GameInit.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/pawnInterface.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/RoomsPosition.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Pawn.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/BoardSetUp.java" />
+        <option value="$PROJECT_DIR$/src/sample/View/Chuj.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/CSS/style/style.css" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/CSS/style.css" />
+        <option value="$PROJECT_DIR$/src/sample/CSS/style.css" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/RoomCoordinates.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Controller.java" />
       </list>
     </option>
   </component>
@@ -288,12 +347,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="80" />
     <option name="y" value="30" />
     <option name="width" value="1841" />
     <option name="height" value="1051" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -306,48 +366,60 @@
         <subPane>
           <expand>
             <path>
-              <item name="final project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final project" type="462c0819:PsiDirectoryNode" />
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="final project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final project" type="462c0819:PsiDirectoryNode" />
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="final project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final project" type="462c0819:PsiDirectoryNode" />
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="final project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final project" type="462c0819:PsiDirectoryNode" />
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="final project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final project" type="462c0819:PsiDirectoryNode" />
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="Logic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="final project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="final project" type="462c0819:PsiDirectoryNode" />
+              <item name="AP_board_game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AP_board_game" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="Logic" type="462c0819:PsiDirectoryNode" />
-              <item name="States" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,12 +435,20 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560438773342" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../StockExchange" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="sample.Logic" />
       <recent name="sample.Logic.States" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/CSS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,24 +463,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BoardSetUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.View.BoardSetUp" />
+      <module name="final project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
@@ -414,33 +493,54 @@
       </extension>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <method v="2">
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -449,10 +549,31 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.BoardSetUp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BoardSetUp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -477,42 +598,43 @@
     <option name="totallyTimeSpent" value="34988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="875" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2960103" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.82329315" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892906" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32931727" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="simpleUML" order="2" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32848486" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25575757" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" visible="true" weight="0.32969698" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25107297" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987879" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32931727" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="7" weight="0.32969698" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,11 +652,77 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="390">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#4808#4809#0" expanded="true" />
+            <element signature="e#4833#4834#0" expanded="true" />
+            <element signature="e#4870#4871#0" expanded="true" />
+            <element signature="e#4898#4899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitBeginningState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitCrewMembersSelectionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor2ndCrewMemberState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitDieRollingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitTrapActionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/Trap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -569,34 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="2074" column="15" selection-start-line="2074" selection-start-column="15" selection-end-line="2074" selection-end-column="15" />
-          <folding>
-            <element signature="e#78006#78007#0" expanded="true" />
-            <element signature="e#78050#78051#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Scanner.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitRestState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -615,36 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-160">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/Ship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,11 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitTrapActionState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="285">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,17 +834,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor1stMrewMemberState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/GameInit.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor2ndCrewMemberState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="345">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitDieRollingState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/image/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="1098" selection-start-line="1098" selection-end-line="1098" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitBeginningState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitCrewMembersSelectionState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/pawnInterface.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/View/RoomsPosition.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/View/Chuj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/CSS/style/css.java" />
+    <entry file="file://$PROJECT_DIR$/src/gui.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/CSS/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Logic/Ship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -725,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Logic/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="355">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
@@ -739,62 +970,216 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitBeginningState.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/GameInit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitCrewMembersSelectionState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor1stMrewMemberState.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/Await3rdTokenPlacementFor2ndCrewMemberState.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/View/BoardSetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="317">
+          <caret line="76" column="74" lean-forward="true" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Logic/States/AwaitDieRollingState.java">
+    <entry file="file://$PROJECT_DIR$/src/mainBoard.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alien.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="196">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/RoomCoordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="532">
+          <caret line="65" column="63" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3696#3697#0" expanded="true" />
+            <element signature="e#3727#3728#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>final project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>

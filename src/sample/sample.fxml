@@ -1,8 +1,30 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controllers.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="main-pane" stylesheets="@CSS/style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Controller" fx:id="mainBoard" onKeyPressed="#movement">
+   <children>
+      <Button layoutX="0" layoutY="0" mnemonicParsing="false" onAction="#exit" prefHeight="20.0" prefWidth="100.0" text="EXIT" textAlignment="CENTER" />
+      <ImageView fitWidth="600" layoutX="100" layoutY="0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/mainBoard.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400" fitWidth="500" layoutX="700" layoutY="0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/gui.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="output" disable="true" layoutX="700" layoutY="350" prefHeight="400" prefWidth="500" styleClass="output" />
+      <TextField fx:id="input" layoutX="700" layoutY="750" prefHeight="50" prefWidth="450" promptText="input hear" />
+      <Button layoutX="1100" layoutY="750" mnemonicParsing="false" onAction="#printInput" prefHeight="50.0" prefWidth="100.0" text="Submit" textAlignment="CENTER" />
+      <Circle fill="BLUE" radius="20" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0"  layoutX="200" layoutY="200" fx:id="crewMemberOne" />
+      <Circle fill="RED" radius="20" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" layoutX="100" layoutY="100" fx:id="crewMemberTwo" />
+   </children>
+</AnchorPane>
