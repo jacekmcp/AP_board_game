@@ -23,7 +23,8 @@ public class Controller {
     @FXML
     void initialize(){
         game = new Game();
-        game.triggerStateActions();
+        updateStatisticsGUI();
+        //game.triggerStateActions();
     }
     @FXML
     private TextArea output;
@@ -42,10 +43,12 @@ public class Controller {
 
     private Game game;
 
+    private Circle[] statisticObject = null;
+
     public final static Map<Integer,RoomCoordinates> roomCoordinates = new HashMap<Integer, RoomCoordinates>(){{
         put(1,new RoomCoordinates(360,130));
         put(2,new RoomCoordinates(415,530));
-        put(3,new RoomCoordinates(415,520));
+        put(3,new RoomCoordinates(200,250));
         put(4,new RoomCoordinates(518,270));
         put(5,new RoomCoordinates(310,270));
         put(6,new RoomCoordinates(360,700));
@@ -98,6 +101,7 @@ public class Controller {
     void action(){
         game.triggerStateActions();
         showGameObjects();
+        updateStatisticsGUI();
     }
     @FXML
     void movement(KeyEvent event){
@@ -265,4 +269,57 @@ public class Controller {
     public void printGameMessage(String message){
         output.appendText(message);
     }
+    public void updateStatisticsGUI(){
+        if(statisticObject == null)
+        {
+            statisticObject = new Circle[3];
+            statisticObject[0] = new Circle(285,780,20); //hull
+            statisticObject[1] = new Circle(1120,60,20); //health
+            statisticObject[2] = new Circle(775,325,20); //inspiration points
+            try{
+                Image point = new Image(new FileInputStream("src/point.png"));
+                statisticObject[0].setFill(new ImagePattern(point));
+                statisticObject[1].setFill(new ImagePattern(point));
+                statisticObject[2].setFill(new ImagePattern(point));
+
+            }catch (Exception x){System.out.println("error not loading point image");}
+            mainBoard.getChildren().addAll(List.of(statisticObject));
+            updateHealth();
+            updateHull();
+            updateInspirationPoints();
+        }
+        else{
+            updateHealth();
+            updateHull();
+            updateInspirationPoints();
+        }
+
+    }
+
+    private void updateHull(){
+        int hullPoints = game.getShip().getHull();
+        if(hullPoints < 7)
+            statisticObject[0].setCenterX(285 + (hullPoints-1) * 40);
+        else {
+            statisticObject[0].setCenterY(818);
+            statisticObject[0].setCenterX(285 + (hullPoints-7)*40);
+        }
+    }
+
+    private void updateHealth(){
+        int healthPoints = game.getHealth();
+        if(healthPoints < 7)
+            statisticObject[1].setCenterY(60 + (healthPoints-1) * 40);
+        else {
+            statisticObject[1].setCenterX(1175);
+            statisticObject[1].setCenterY(60 + (healthPoints-7)*40);
+        }
+    }
+
+    private void updateInspirationPoints(){
+        int inspirationPoints = game.getInspirationPoints();
+        statisticObject[2].setCenterX(775 + (inspirationPoints-1) * 40);
+
+    }
+
 }
