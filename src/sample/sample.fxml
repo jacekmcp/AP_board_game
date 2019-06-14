@@ -23,7 +23,7 @@
       </ImageView>
       <TextArea fx:id="output" disable="true" layoutX="700" layoutY="350" prefHeight="400" prefWidth="500" styleClass="output" />
       <TextField fx:id="input" layoutX="700" layoutY="750" prefHeight="50" prefWidth="450" promptText="input hear" />
-      <Button layoutX="1100" layoutY="750" mnemonicParsing="false" onAction="#printInput" prefHeight="50.0" prefWidth="100.0" text="Submit" textAlignment="CENTER" />
+      <Button layoutX="1100" layoutY="750" mnemonicParsing="false" onAction="#action" prefHeight="50.0" prefWidth="100.0" text="Submit" textAlignment="CENTER" />
       <Circle fill="BLUE" radius="20" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0"  layoutX="200" layoutY="200" fx:id="crewMemberOne" />
       <Circle fill="RED" radius="20" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" layoutX="100" layoutY="100" fx:id="crewMemberTwo" />
    </children>

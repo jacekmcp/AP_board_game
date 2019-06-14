@@ -1,6 +1,7 @@
 package sample.Logic;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Room {
@@ -43,6 +44,7 @@ public class Room {
     public List<ShipObject> getShipObjects() {
         return shipObjects;
     }
+
 
 //    public boolean consistShipObject(ShipObject shipObject){
 //        for (ShipObject so: this.shipObjects) {

@@ -11,15 +11,24 @@ import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Circle;
 import org.w3c.dom.events.Event;
 import sample.Logic.CrewMember;
+import sample.Logic.Game;
 import sample.Logic.Room;
 import javafx.scene.control.TextArea;
 import java.awt.*;
+import java.io.FileInputStream;
 import java.util.*;
 import java.util.List;
 
 import  javafx.scene.control.*;
+import sample.Logic.ShipObject;
 
 public class Controller {
+
+    @FXML
+    void initialize(){
+        game = new Game();
+        game.triggerStateActions();
+        }
     @FXML
     private TextArea output;
 
@@ -35,7 +44,8 @@ public class Controller {
     @FXML
     private AnchorPane mainBoard;
 
-   // Image alienImg = new Image("@/alien.png");
+    private Game game;
+
     public final static Map<Integer,RoomCoordinates> roomCoordinates = new HashMap<>(){{
          put(1,new RoomCoordinates(360,130));
          put(2,new RoomCoordinates(415,530));
@@ -51,24 +61,38 @@ public class Controller {
          put(12,new RoomCoordinates(200,540));
     }
     };
-    private void switchRoom(boolean moveCrewMemberOne,int roomNumber){
+    private void addCrewMember(boolean moveCrewMemberOne,int roomNumber){
         RoomCoordinates temp = roomCoordinates.get(roomNumber);
-        if(moveCrewMemberOne){
-            crewMemberOne.setLayoutX(temp.getX() + 20);
-            crewMemberOne.setLayoutY(temp.getY());
-        }else{
-            crewMemberTwo.setLayoutX(temp.getX() - 20);
-            crewMemberTwo.setLayoutY(temp.getY());
-        }
+        Circle alien = new Circle(temp.getX(),temp.getY() - 30,25);
+        try{
+            //Image alienImg = new Image(new FileInputStream("src/alien.png"));
+            //alien.setFill(new ImagePattern(alienImg));
+        }catch (Exception x){System.out.println("error not loading alien image");}
+
+        mainBoard.getChildren().add(alien);
 
     }
     private void addAlien(int roomNumber){
         RoomCoordinates temp = roomCoordinates.get(roomNumber);
-        Circle alien = new Circle(temp.getX(),temp.getY(),20);
-        //alien.setFill(new ImagePattern(alienImg));
+        Circle alien = new Circle(temp.getX(),temp.getY() - 30,25);
+        try{
+            Image alienImg = new Image(new FileInputStream("src/alien.png"));
+            alien.setFill(new ImagePattern(alienImg));
+        }catch (Exception x){System.out.println("error not loading alien image");}
+
         mainBoard.getChildren().add(alien);
         }
+    private void addTrap(int roomNumber){
+        RoomCoordinates temp = roomCoordinates.get(roomNumber);
+        Circle trap = new Circle(temp.getX(),temp.getY() + 30,25);
+        try{
+            Image alienImg = new Image(new FileInputStream("src/trap.jpg"));
+            trap.setFill(new ImagePattern(alienImg));
+        }catch (Exception x){System.out.println("error not loading alien image");}
 
+        mainBoard.getChildren().add(trap);
+
+    }
 
 
 
@@ -136,30 +160,51 @@ public class Controller {
         Platform.exit();
     }
     @FXML
-    void printInput(){
-        String textInput = "";
-        if((textInput = input.getText()).length() > 0)
-        output.appendText(textInput + "\n");
-        input.setText("");
+    void action(){
+        game.triggerStateActions();
+        showGameObjects();
     }
     @FXML
     void movement(KeyEvent event){
         switch (event.getCode()){
             case A:
                 addAlien(1);
+                addTrap(1);
                 break;
             case D:
                 addAlien(2);
+                addTrap(2);
                 break;
             case W:
-                addAlien(3);
+                addAlien(3);addTrap(4);
                 break;
             case S:
-                addAlien(4);
+                addAlien(4);addTrap(10);
                 break;
 
          }
 
+    }
+    public void showGameObjects(){
+        Iterator iterator = game.getShip().getRooms().iterator();
+        while (iterator.hasNext()){
+            Room room = (Room)iterator.next();
+            Iterator iterator1 = room.getShipObjects().iterator();
+            while (iterator1.hasNext()){
+                ShipObject shipObject = (ShipObject)iterator1.next();
+                switch (shipObject.sayType()){
+                    case "CM":
+                        addCrewMember(true,room.getNumber());
+                        break;
+                    case "Alien":
+                        addAlien(room.getNumber());
+                        break;
+                    case "Trap":
+                        addTrap(room.getNumber());
+                        break;
+                }
+            }
+        }
     }
 
 }
