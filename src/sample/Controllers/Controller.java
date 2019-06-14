@@ -2,6 +2,7 @@ package sample.Controllers;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
@@ -125,6 +126,16 @@ public class Controller {
 
     }
     public void showGameObjects(){
+
+        Iterator iterator2 = mainBoard.getChildren().iterator();
+        while(iterator2.hasNext()){
+           Node temp =  (Node)iterator2.next();
+           if(temp instanceof Circle){
+               iterator2.remove();
+           }
+        }
+        updateStatisticsGUI();
+
         Iterator iterator = game.getShip().getRooms().iterator();
         while (iterator.hasNext()){
             Room room = (Room)iterator.next();
@@ -200,7 +211,7 @@ public class Controller {
 
         while(true){
             int choose = this.scanner.nextInt();
-            if(!rooms.get(choose + 1).isSealed())return rooms.get(choose + 1);
+            if(!rooms.get(choose - 1).isSealed())return rooms.get(choose - 1);
             System.out.println("Chosen room is sealed");
         }
     }
@@ -270,9 +281,9 @@ public class Controller {
         output.appendText(message);
     }
     public void updateStatisticsGUI(){
-        if(statisticObject == null)
-        {
+        if(statisticObject == null) {
             statisticObject = new Circle[3];
+        }
             statisticObject[0] = new Circle(285,780,20); //hull
             statisticObject[1] = new Circle(1120,60,20); //health
             statisticObject[2] = new Circle(775,325,20); //inspiration points
@@ -287,13 +298,6 @@ public class Controller {
             updateHealth();
             updateHull();
             updateInspirationPoints();
-        }
-        else{
-            updateHealth();
-            updateHull();
-            updateInspirationPoints();
-        }
-
     }
 
     private void updateHull(){
