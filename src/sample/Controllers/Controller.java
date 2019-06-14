@@ -1,10 +1,9 @@
 package sample.Controllers;
 
-import sample.Logic.CrewMember;
-import sample.Logic.Room;
+import sample.Logic.*;
+import sample.Logic.Traps.Trap;
 
 import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Controller {
@@ -66,5 +65,67 @@ public class Controller {
             if(!rooms.get(choose + 1).isSealed())return rooms.get(choose + 1);
             System.out.println("Chosen room is sealed");
         }
+    }
+
+    public int printTrapMenu(Game game) {
+        while(true){
+            System.out.println("1. place Organic Detonator");
+            System.out.println("2. place Particle Disperser");
+
+            if(game.getShip().particleDisperserExists()){
+                System.out.println("3. Detonate Particle Disperser");
+            }
+
+            int option = this.scanner.nextInt();
+            if(option < 4 && option > 0) return option;
+        }
+
+
+    }
+
+    public Room whereToPlaceTrap(Game game) {
+        System.out.println("Where u wanna place trap (Select only number)?");
+
+        for(Room room: game.getShip().getRooms()){
+            System.out.println(room);
+        }
+
+        int roomNr = this.scanner.nextInt();
+
+        for(Room room: game.getShip().getRooms()){
+            if(room.getNumber() == roomNr) return room;
+        }
+
+        return null;
+    }
+
+    public Room showDetonateMenu(Game game) {
+        System.out.println("Select room where Particle Disperser is placed to be detonated(Select only number)");
+
+        for(Room room: game.getShip().getRooms()){
+            for (ShipObject shipObject: room.getShipObjects()) {
+                if(shipObject.sayType().equals("Trap")){
+                    Trap trap = (Trap) shipObject;
+                    if(trap.getTrapType() == Trap.type.PARTICLE_DISPERSER) {
+                        System.out.println(room);
+                    }
+                }
+            }
+        }
+
+        int roomNr = this.scanner.nextInt();
+
+        for(Room room: game.getShip().getRooms()){
+            if(room.getNumber() == roomNr) return room;
+        }
+        return null;
+    }
+
+
+    public Room selectNewRoomForAlien(Alien alien, List<Room> rooms) {
+        System.out.println("New room for ");
+        System.out.println(alien);
+
+        return this.selectRoom(rooms);
     }
 }

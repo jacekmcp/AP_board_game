@@ -1,6 +1,7 @@
 package sample.Logic.States;
 
 import sample.Controllers.Controller;
+import sample.Logic.Alien;
 import sample.Logic.Game;
 
 import java.util.Random;
@@ -26,6 +27,8 @@ public class AwaitDieRollingState implements GameState {
             Random rand = new Random();
             int roomNr = rand.nextInt(12) + 1;
             controller.printAlienSpawnResult(roomNr);
+
+            game.getShip().getRooms().get(roomNr - 1).addObject(new Alien());
         }
 
         game.setGameState(new AwaitPlayerActionState());

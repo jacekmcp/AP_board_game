@@ -69,4 +69,12 @@ public class Room {
                 ", sealed=" + sealed +
                 '}';
     }
+
+    public boolean detonateTrap() {
+        for (ShipObject shipObject: this.shipObjects) {
+            if(shipObject.sayType().equals("CM")) return true;
+        }
+        this.shipObjects = new ArrayList<>();
+        return false;
+    }
 }

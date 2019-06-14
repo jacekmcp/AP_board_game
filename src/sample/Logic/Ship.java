@@ -1,6 +1,9 @@
 package sample.Logic;
 
+import sample.Logic.Traps.Trap;
+
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Ship {
@@ -94,9 +97,9 @@ public class Ship {
 
     }
     
-    public void replaceCrewMember(CrewMember crewMember, int roomIndex1, int roomIndex2){
-        this.rooms.get(roomIndex1).getShipObjects().remove(crewMember);
-        this.rooms.get(roomIndex2).addObject(crewMember);
+    public void replaceCrewMember(ShipObject shipObject, int roomIndex1, int roomIndex2){
+        this.rooms.get(roomIndex1).getShipObjects().remove(shipObject);
+        this.rooms.get(roomIndex2).addObject(shipObject);
     }
 
     public Room findCrewMember(CrewMember chosenCrewMember) {
@@ -104,5 +107,31 @@ public class Ship {
             if(room.getShipObjects().contains(chosenCrewMember)) return room;
         }
         return null;
+    }
+
+    public boolean particleDisperserExists() {
+
+        for (Room room: this.rooms) {
+            for (ShipObject shipObject: room.getShipObjects()) {
+                if(shipObject.sayType().equals("Trap")){
+                    Trap trap = (Trap) shipObject;
+                    if(trap.getTrapType() == Trap.type.PARTICLE_DISPERSER) return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public Room findAlien(Alien alien) {
+        for (Room room: this.rooms) {
+            if(room.getShipObjects().contains(alien)) return room;
+        }
+        return null;
+    }
+
+    public void removeAllAliens() {
+        for (Room room : this.rooms){
+            room.getShipObjects().removeIf(shipObject -> shipObject.sayType().equals("Alien"));
+        }
     }
 }

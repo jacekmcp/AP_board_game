@@ -15,6 +15,8 @@ public class AwaitRestState implements GameState {
 
     @Override
     public void handleActions(Game game) {
+        game.getShip().removeAllAliens();
 
+        game.setGameState(new AwaitDieRollingState());
     }
 }
